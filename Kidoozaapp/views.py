@@ -13,3 +13,6 @@ def home(request):
 def user(request):
      return render(request,"customers/index.html")
 
+def login(request):
+     return render(request, 'loginpage/login.html')
+
